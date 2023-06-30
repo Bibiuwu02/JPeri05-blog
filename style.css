@@ -7,20 +7,22 @@
 }
 :root {
     --color-box: #47bf67;
+    --color-special: #76fc6a;
 }
 body {
     width: 100%;
     height: 100vh;
+    font-size: 1rem;
     font-family: 'Sora', sans-serif;
 }
 header {
     width: 100%;
     height: 11vh;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 .header-box {
     width: 100%;
-    height: 11vh;
+    height: 100%;
     background-color: var(--color-box);
     line-height: 1.2;
     padding: 15px;
@@ -28,12 +30,12 @@ header {
 .header-title {
     font-size: 3rem;
 }
-.special-span {
+.title-span {
     font-size: 2rem;
     color: #fff;
 }
 .title {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .main-section {
     text-align: center;
@@ -54,4 +56,31 @@ header {
 }
 .main-article p {
     font-size: 20px;
+}
+.name-span {
+    font-size: 2rem;
+    color: var(--color-special);
+}
+.article-span {
+    font-size: 2rem;
+}
+.span-email {
+    color: darkgreen;
+    text-decoration: underline;
+}
+footer {
+    width: 100%;
+    height: 11vh;
+    margin-top: 2vh;
+}
+.footer-box {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-box);
+    line-height: 1.4;
+    padding: 15px;
+    text-align: center;
+}
+.footer-title {
+    font-size: 2rem;
 }
