@@ -30,6 +30,37 @@ header {
 .header-title {
     font-size: 3rem;
 }
+.nav-bar {
+    position: relative;
+    z-index: 999;
+}
+.nav-bar ul {
+    list-style-type: none;
+}
+.nav-bar li {
+    display: inline-block;
+}
+.nav-bar li a {
+    color: var(--color-box);
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.nav-bar ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.nav-bar ul ul li {
+    display: block;
+}
+.nav-bar li:hover ul {
+    display: block;
+}
+.nav-bar ul ul li a:hover {
+    background-color: #dcdcdc;
+}
 .title-span {
     font-size: 2rem;
     color: #fff;
